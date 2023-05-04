@@ -24,8 +24,13 @@
             <div class="info">
                 <h1>Carte CTS</h1>
 
-                <span id="infosD"></span> 
                 <span id="infosA"></span>
+                <span id="infosB"></span> 
+                <span id="infosB"></span>
+                <span id="infosD"></span> 
+                <span id="infosE"></span>
+                <span id="infosF"></span> 
+                <span id="infosG"></span>
         
         </div>
         
