@@ -7,7 +7,7 @@
         <title>Carte CTS</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <!-- <script> src="https:code.jquery.com/jquery.3.2.1.min.js" type="text/javascript"</script> -->
         <script type="text/javascript" src="app.js"></script>
@@ -20,6 +20,12 @@
                 <?php include('arrets.svg'); ?>
 
             </div>
+
+            <div class="info">
+                <h1>Carte CTS</h1>
+
+                <span id="infosD"></span> 
+                <span id="infosA"></span>
         
         </div>
         
