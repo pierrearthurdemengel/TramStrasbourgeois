@@ -148,9 +148,6 @@ function init() {
     
     // Ligne E
     // Tapé à la mano 
-    {name: "Ligne E et B - Lycée Kléber",lat: 48.594103,lng: 7.757765 },
-    {name: "Ligne E et B - Parc du Contades",lat: 48.590271,lng: 7.755961 },
-    {name: "Ligne BCF - République",lat: 48.586208,lng: 7.754489 },
     
     { name: "Ligne E- Campus d'Illkirch ", lat: 48.528695, lng: 7.732819 },
     { name: "Ligne E- Leclerc", lat: 48.534441, lng: 7.734430 },
@@ -182,20 +179,19 @@ function init() {
     
 
     // Ligne F
-    { name: "F - Elsau", lat: 48.562973, lng: 7.708695 },
-    { name: "F - Saint-Florent", lat: 48.565747, lng: 7.715159 },
-    { name: "F - Montagne Verte", lat: 48.568521, lng: 7.721623 },
-    { name: "F - Laiterie", lat: 48.571295, lng: 7.728087 },
-    { name: "F - Alt Winmärik", lat: 48.574069, lng: 7.734551 },
-    { name: "F - Homme de Fer", lat: 48.583778, lng: 7.745019 },
-    { name: "F - Langstross Grand'Rue", lat: 48.581134, lng: 7.750483 },
-    { name: "F - Porte de l'Hôpital", lat: 48.57849, lng: 7.755947 },
-    { name: "F - Etoile Bourse", lat: 48.575846, lng: 7.761411 },
-    { name: "F - Etoile Polygone", lat: 48.573202, lng: 7.766875 },
-    { name : "F - Duc d'Alsace" ,lat :48.570558 ,lng :7.772339},
-    {name : "F - Aristide Briand" ,lat :48.567914 ,lng :7.777803},
-    {name : "F - Comtes" ,lat :48.56527 ,lng :7.783267},
-    {name : "F - Place d'Islande" ,lat :48.584662 ,lng :7.768551}
+    {name : "Ligne F - Comtes" ,lat :48.56527 ,lng :7.783267},
+    { name: "Ligne F - Parc des Romains", lat: 48.562973, lng: 7.708695 },
+    { name: "Ligne F - Porte Blanche", lat: 48.565747, lng: 7.715159 },
+    { name: "Ligne F - Faubourg National", lat: 48.568521, lng: 7.721623 },
+    { name: "Ligne F - Alt Winmärik", lat: 48.574069, lng: 7.734551 },
+    { name: "Ligne F - Homme de Fer", lat: 48.583778, lng: 7.745019 },
+    { name: "Ligne F - Broglie", lat: 48.581134, lng: 7.750483 },
+    { name: "Ligne F - République", lat: 48.57849, lng: 7.755947 },
+    { name: "Ligne F - Etoile Bourse", lat: 48.575846, lng: 7.761411 },
+    { name: "Ligne F - Gallia", lat: 48.573202, lng: 7.766875 },
+    { name : "Ligne F - Université" ,lat :48.570558 ,lng :7.772339},
+    { name : "Ligne F - Observatoire" ,lat :48.567914 ,lng :7.777803},
+    { name : "Ligne F - Place d'Islande" ,lat :48.584662 ,lng :7.768551}
   ];
   // Boucle pour parcourir le tableau de points et générer un marker pour chaque point
   for (let i = 0; i < points.length; i++) {
