@@ -1,7 +1,7 @@
 function init() {
   const parcThabor = {
-    lat: 48.1143,
-    lng: 2.1643,
+    lat: 48.584858,
+    lng: 7.735531,
   };
   const zoomLevel = 7;
   const map = L.map("map").setView([parcThabor.lat, parcThabor.lng], zoomLevel);
@@ -45,7 +45,6 @@ function init() {
     { name: "Ligne A - Rotonde", lat: 48.591864, lng:7.724911 },
     { name: "Ligne A - Gare centrale", lat: 48.584858, lng:7.735531  },
     { name: "Ligne A - Ancienne Synagogue / Les Halles", lat: 48.585280, lng:7.742432  },
-    { name: "Ligne A - Landsberg", lat: 48.569609, lng: 7.763252 },
     { name: "Ligne A - Homme de Fer", lat: 48.584079, lng: 7.744578 },
     { name: "Ligne A - Langstross - Grand'Rue", lat: 48.581470, lng: 7.746296 },
     { name: "Ligne A - Porte de l'Hôpital", lat: 48.578149, lng: 7.750123 },
@@ -116,30 +115,36 @@ function init() {
 
     
     // Ligne D
-    { name: "D - Poteries", lat: 48.584725, lng: 7.761422 },
-    { name: "D - Ducs d’Alsace", lat: 48.587409, lng: 7.768332 },
-    { name: "D - Aristide Briand", lat: 48.568475, lng: 7.776524 },
-    { name: "D - Marcel Rudloff", lat: 48.605131, lng: 7.745076 },
-    { name: "D - Lycée Kléber", lat: 48.598293, lng: 7.750563 },
-    { name: "D - Rotonde", lat: 48.593317, lng: 7.760045 },
-    { name: "D - Landsberg", lat: 48.588903, lng: 7.769303 },
-    { name: "D - Porte de l’Hôpital", lat: 48.583813, lng: 7.774956 },
-    { name: "D - Grand’Rue", lat: 48.583488, lng: 7.747156 },
-    { name: "D - Homme de Fer", lat: 48.585054, lng: 7.746247 },
-    { name: "D - Langstross - Grand’Rue", lat: 48.581464, lng: 7.746292 },
-    { name: "D - Place d’Islande", lat: 48.586295, lng: 7.727871 },
-    { name: "D - Etoile Bourse", lat: 48.587289, lng: 7.719097 },
-    { name: "D - Etoile Polygone", lat: 48.587665, lng: 7.712719 },
-    { name: "D - Leclerc", lat: 48.591408, lng: 7.697769 },
-    { name: "D - Krimmeri - Stade de la Meinau", lat: 48.594365, lng: 7.686326 },
-    { name: "D - Aristide Briand", lat: 48.613211, lng: 7.741405 },
-    { name: "D - Jean Jaurès", lat: 48.622155, lng: 7.731661 },
-    { name: "D - Schluthfeld", lat: 48.619398, lng: 7.718833 },
-    { name: "D - Lycée Jean Monnet", lat: 48.617036, lng: 7.711904 },
-    { name: "D - Colonne", lat: 48.616049, lng: 7.702509 },
-    { name: "D - Port du Rhin", lat: 48.572721, lng: 7.795132 },, 
-    { name: "D - Kehl Bahnhof", lat: 48.575954, lng: 7.807217 },
-    { name: "D - Kehl Rathaus", lat: 48.572282, lng: 7.813887 },
+    { name: "Ligne D - Poteries", lat: 48.583549, lng: 7.692366 },
+    { name: "Ligne D - Marcel Rudloff", lat: 48.587421, lng: 7.697538 },
+    { name: "Ligne D - Dante", lat: 48.591238, lng: 7.702837 },
+    { name: "Ligne D - Hôpital de Hautepierre", lat: 48.591572, lng: 7.706823 },
+    { name: "Ligne D - Ducs d’Alsace", lat: 48.590144, lng: 7.715269 },
+    { name: "Ligne D - Saint Florent", lat: 48.591582, lng: 7.720322 },
+    { name: "Ligne D - Rotonde", lat: 48.591864, lng:7.724911 },
+    { name: "Ligne D - Gare centrale", lat: 48.584858, lng:7.735531  },
+    { name: "Ligne D - Homme de Fer", lat: 48.584079, lng: 7.744578 },
+    { name: "Ligne D - Langstross - Grand'Rue", lat: 48.581470, lng: 7.746296 },
+    { name: "Ligne D - Porte de l'Hôpital", lat: 48.578149, lng: 7.750123 },
+    { name: "Ligne D - Etoile Bourse", lat: 48.574481, lng: 7.753562 },
+    { name: "Ligne D - Etoile Polygone", lat: 48.571553, lng: 7.755578 },
+    { name: "Ligne D - Landsberg", lat: 48.569609, lng: 7.763252 },
+    { name: "Ligne D - Jean Jaurès", lat: 48.567217, lng: 7.772067 },
+    { name: "Ligne D - Aristide Briand", lat: 48.568536, lng: 7.776682 },
+    { name: "Ligne D - Citadelle", lat: 48.571442, lng: 7.780062 },
+    { name: "Ligne D - Starcoop", lat: 48.574108, lng: 7.785670 },
+    { name: "Ligne D - Port du Rhin", lat: 48.572748, lng: 7.795171 }, 
+    { name: "Ligne D - Kehl Bahnhof", lat: 48.575907, lng: 7.807224 },
+    { name: "Ligne D - Hochschule / Läger", lat: 48.575539, lng: 7.816100 },
+    { name: "Ligne D - Kehl Rathaus", lat: 48.572257, lng: 7.813871 },
+
+    
+    
+
+
+
+    
+
     
     // Ligne E
     // Tapé à la mano 
