@@ -179,18 +179,18 @@ function init() {
     
 
     // Ligne F
-    {name : "Ligne F - Comtes" ,lat :48.56527 ,lng :7.783267},
-    { name: "Ligne F - Parc des Romains", lat: 48.562973, lng: 7.708695 },
-    { name: "Ligne F - Porte Blanche", lat: 48.565747, lng: 7.715159 },
-    { name: "Ligne F - Faubourg National", lat: 48.568521, lng: 7.721623 },
+    {name : "Ligne F - Comtes" ,lat :48.579733 ,lng :7.716528},
+    { name: "Ligne F - Parc des Romains", lat: 48.580673, lng: 7.722555 },
+    { name: "Ligne F - Porte Blanche", lat: 48.579841, lng: 7.731050 },
+    {name: "Ligne F - Faubourg National", lat: 48.582400, lng: 7.736596 },
     { name: "Ligne F - Alt Winmärik", lat: 48.574069, lng: 7.734551 },
-    { name: "Ligne F - Homme de Fer", lat: 48.583778, lng: 7.745019 },
-    { name: "Ligne F - Broglie", lat: 48.581134, lng: 7.750483 },
+    { name: "Ligne F - Homme de Fer",lat: 48.584343,lng: 7.744767},
+    { name: "Ligne F - Broglie",lat: 48.584652,lng: 7.749086},
     { name: "Ligne F - République", lat: 48.57849, lng: 7.755947 },
     { name: "Ligne F - Etoile Bourse", lat: 48.575846, lng: 7.761411 },
-    { name: "Ligne F - Gallia", lat: 48.573202, lng: 7.766875 },
-    { name : "Ligne F - Université" ,lat :48.570558 ,lng :7.772339},
-    { name : "Ligne F - Observatoire" ,lat :48.567914 ,lng :7.777803},
+    { name: "Ligne F - Gallia", lat: 48.584342, lng: 7.758359 },
+    { name: "Ligne F - Universités", lat: 48.582733, lng: 7.763965 },
+    { name: "Ligne F - Observatoire", lat: 48.581414, lng: 7.768848 },
     { name : "Ligne F - Place d'Islande" ,lat :48.584662 ,lng :7.768551}
   ];
   // Boucle pour parcourir le tableau de points et générer un marker pour chaque point
