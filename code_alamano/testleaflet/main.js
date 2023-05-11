@@ -1,3 +1,45 @@
+// import requests
+
+// headers = {
+//     'Authorization': 'Bearer f7e899aa-b4b3-4e27-bdb3-48ff97432546',
+//     'Content-Type': 'application/json'
+// }
+
+// response = requests.get('https://api.example.com/endpoint', headers=headers)
+
+
+// async function getBusTimes() {
+//   const stops = [
+//     // liste des noms et des emplacements des arrêts
+//   ];
+
+//   // API endpoint pour les horaires de bus
+//   const endpoint = `https://example.com/api/bus-times?stops=${stops.join(",")}`;
+
+//   const response = await fetch(endpoint);
+//   const data = await response.json();
+
+//   // Boucle sur chaque arrêt pour ajouter un marqueur avec les horaires
+//   for (const stop of data) {
+//     const marker = L.marker([stop.lat, stop.lng], { icon: customIcon }).addTo(map);
+//     const popupContent = `
+//       <h3>${stop.name}</h3>
+//       <ul>
+//         ${stop.times.map(time => `<li>${time}</li>`).join("")}
+//       </ul>
+//     `;
+//     marker.bindPopup(popupContent);
+//   }
+// }
+
+// getBusTimes();
+
+
+
+
+
+
+
 function init() {
   const parcThabor = {
     lat: 48.584858,
